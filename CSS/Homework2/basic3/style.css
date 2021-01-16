@@ -1,0 +1,19 @@
+.nav-block {
+	background-color: #D5C8D2;
+	width: 15em;
+	float: left;
+}
+
+.article {
+	background-color: #C8D2D5;
+	margin-bottom: .2em;
+}
+
+.article img {
+	float: right;
+}
+
+.footer {
+	background-color: #D2D5C8;
+	clear: both;
+}

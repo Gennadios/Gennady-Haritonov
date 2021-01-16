@@ -1,0 +1,27 @@
+.clubs, .hearts, .diamonds {
+	background-image: url('cards.png');
+	background-repeat: no-repeat;
+}
+
+.clubs {
+	background-position: -145px -200px;
+	width: 140px;
+	height: 190px;
+	display: inline-block;
+	margin-right: -50px;
+}
+
+.hearts {
+	background-position: -435px -597px;
+	width: 140px;
+	height: 190px;
+	display: inline-block;
+	margin-right: -50px;
+}
+
+.diamonds {
+	background-position: -290px -1392px;
+	width: 140px;
+	height: 190px;
+	display: inline-block;
+}

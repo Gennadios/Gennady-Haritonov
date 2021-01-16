@@ -1,0 +1,18 @@
+.ul-main {
+	list-style: upper-roman;
+	width: 350px;
+}
+
+.ul-secondary {
+	list-style: lower-roman;
+}
+
+.python {
+	background-color: black;
+	font-family: monospace;
+	font-size: 12px;
+	color: green;
+	width: 400px;
+	max-height: 4em;
+	overflow: auto;
+}
