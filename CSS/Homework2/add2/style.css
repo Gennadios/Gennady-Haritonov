@@ -23,4 +23,5 @@
 .footer {
 	display: flex;
 	background-color: lightgreen;
+	margin-top: 5px;
 }
