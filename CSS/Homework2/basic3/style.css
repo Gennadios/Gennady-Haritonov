@@ -7,10 +7,15 @@
 .article {
 	background-color: #C8D2D5;
 	margin-bottom: .2em;
+	margin-left: 245px;
 }
 
 .article img {
 	float: right;
+}
+
+.clear {
+	clear: both;
 }
 
 .footer {

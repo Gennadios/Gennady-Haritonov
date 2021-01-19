@@ -1,0 +1,26 @@
+.flex-container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.nav-block {
+	flex: 1;
+	background-color: tomato;
+}
+
+.article-container {
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	margin-left: 5px;
+}
+
+.article-container img {
+	align-self: flex-end;
+}
+
+.footer {
+	display: flex;
+	background-color: lightgreen;
+}
