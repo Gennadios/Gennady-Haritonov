@@ -1,19 +1,26 @@
 .flex-container {
 	display: flex;
 	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 .nav-block {
-	flex: 1;
+	flex: 1 15em;
 	background-color: tomato;
 }
 
 .article-container {
-	flex: 4;
+	flex: 4 15em;
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+}
+
+.article {
 	display: flex;
 	flex-direction: column;
 	background-color: lightgray;
-	margin-left: 5px;
+	margin-bottom: 5px;
 }
 
 .article-container img {
@@ -23,5 +30,4 @@
 .footer {
 	display: flex;
 	background-color: lightgreen;
-	margin-top: 5px;
 }
