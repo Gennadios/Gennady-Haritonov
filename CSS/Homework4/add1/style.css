@@ -1,0 +1,45 @@
+p {
+	text-align: justify;
+	white-space: pre-line;
+	border: lightgray 1px solid;
+	border-radius: 0 10px;
+	padding: 5px;
+}
+
+a[href^="https://"]::before {
+	content: url(pic/extref.png);
+}
+
+h2 + p a:last-child::after {
+	content: url(pic/logo-doc.jpg);
+	margin-left: 2px;
+}
+
+p:nth-child(3) a:last-child::after {
+	content: url(pic/logo-pdf.png);
+	margin-left: 2px;
+}
+
+p:nth-child(4) a:last-child::after {
+	content: url(pic/logo-zip.gif);
+	margin-left: 2px;
+}
+
+ul {
+	list-style: url(pic/logo-list.jpg);
+}
+
+ul li:first-child:hover::after {
+	content: url(pic/logo-doc.jpg);
+	margin: 2px;
+}
+
+ul li:nth-child(2):hover::after {
+	content: url(pic/logo-pdf.png);
+	margin: 2px;
+}
+
+ul li:last-child:hover::after {
+	content: url(pic/logo-zip.gif);
+	margin: 2px;
+}

@@ -1,0 +1,21 @@
+table {
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+
+table caption {
+	font-size: 0.7em;
+}
+
+th, td {
+	border: black 1px dotted;
+}
+
+th {
+	background-color: #8C8C8C;
+	color: white;
+}
+
+table tbody tr:nth-child(2n) {
+	background-color: lightgray;
+}
